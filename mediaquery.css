@@ -1,0 +1,173 @@
+
+@media screen and (max-width:1400px) {
+    #profil{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+@media screen and (max-width:1200px) {
+    #deskstop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #Experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+
+    #profil, .section-container{
+        display: block;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    section, .section-container{
+        height: fit-content;
+    }
+    section {
+    margin: 0 5%;  
+    }
+
+}
+
+/* Media Query pour écrans de largeur maximale 1400px */
+@media screen and (max-width: 1400px) {
+    nav {
+        height: 15vh; /* Ajustez la hauteur du nav pour les écrans plus petits */
+    }
+
+    .nav-links {
+        font-size: 1.4rem; /* Réduit la taille de la police des liens de navigation */
+        gap: 1.5rem; /* Réduit l'espace entre les liens de navigation */
+    }
+
+    .logo {
+        font-size: 1.8rem; /* Réduit la taille de la police du logo */
+    }
+
+    #profile {
+        flex-direction: column; /* Empile les éléments du profil verticalement */
+        height: auto; /* Permet à la hauteur de s'ajuster automatiquement */
+        gap: 2rem; /* Augmente l'espace entre les éléments du profil */
+    }
+
+    .section__pic-container {
+        width: 300px; /* Réduit la taille de l'image de profil */
+        height: 300px; /* Réduit la taille de l'image de profil */
+    }
+
+    .section__text__p2 {
+        font-size: 1.5rem; /* Réduit la taille de la police du texte */
+    }
+
+    .title {
+        font-size: 2.5rem; /* Réduit la taille de la police du titre */
+    }
+
+    .btn-container {
+        gap: 0.5rem; /* Réduit l'espace entre les boutons */
+    }
+
+    .about-details-container {
+        flex-direction: column; /* Empile les détails à propos verticalement */
+    }
+
+    .article-container {
+        flex-direction: column; /* Empile les articles verticalement */
+    }
+
+    #Contact {
+        height: auto; /* Permet à la hauteur de s'ajuster automatiquement */
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column; /* Empile les éléments du contact verticalement */
+        align-items: center; /* Centre les éléments horizontalement */
+        padding: 1rem; /* Ajuste le padding pour les petits écrans */
+    }
+
+    .Contact-info-container {
+        flex-direction: column; /* Empile les informations de contact verticalement */
+        align-items: center; /* Centre les informations de contact */
+    }
+
+    .Contact-info-container p {
+        font-size: 1rem; /* Réduit la taille de la police des paragraphes de contact */
+    }
+}
+
+/* Media Query pour écrans de largeur maximale 1200px */
+@media screen and (max-width: 1200px) {
+    nav {
+        height: 12vh; /* Ajuste la hauteur du nav pour les écrans plus petits */
+    }
+
+    .nav-links {
+        font-size: 1.2rem; /* Réduit davantage la taille de la police des liens de navigation */
+        gap: 1rem; /* Réduit l'espace entre les liens de navigation */
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Réduit davantage la taille de la police du logo */
+    }
+
+    #profile {
+        flex-direction: column; /* Empile les éléments du profil verticalement */
+        height: auto; /* Permet à la hauteur de s'ajuster automatiquement */
+        gap: 1.5rem; /* Réduit l'espace entre les éléments du profil */
+    }
+
+    .section__pic-container {
+        width: 250px; /* Réduit davantage la taille de l'image de profil */
+        height: 250px; /* Réduit davantage la taille de l'image de profil */
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem; /* Réduit davantage la taille de la police du texte */
+    }
+
+    .title {
+        font-size: 2rem; /* Réduit davantage la taille de la police du titre */
+    }
+
+    .btn-container {
+        gap: 0.25rem; /* Réduit l'espace entre les boutons */
+    }
+
+    .about-details-container {
+        flex-direction: column; /* Empile les détails à propos verticalement */
+    }
+
+    .article-container {
+        flex-direction: column; /* Empile les articles verticalement */
+    }
+
+    #Contact {
+        height: auto; /* Permet à la hauteur de s'ajuster automatiquement */
+    }
+
+    .contact-info-upper-container {
+        flex-direction: column; /* Empile les éléments du contact verticalement */
+        align-items: center; /* Centre les éléments horizontalement */
+        padding: 1rem; /* Ajuste le padding pour les petits écrans */
+    }
+
+    .Contact-info-container {
+        flex-direction: column; /* Empile les informations de contact verticalement */
+        align-items: center; /* Centre les informations de contact */
+    }
+
+    .Contact-info-container p {
+        font-size: 0.9rem; /* Réduit davantage la taille de la police des paragraphes de contact */
+    }
+}
